@@ -23,7 +23,7 @@ tools = [
             "properties": {
                 "model": {
                     "type": "string",
-                    "enum": ["gpt-41", "gpt-41-mini", "o1", "o4-mini"],
+                    "enum": ["anthropic-haiku", "anthropic-sonnet-3-legacy", "anthropic-sonnet-3", "anthropic-sonnet-4", "anthropic-opus-4"],
                     "description": "The selected AI model based on query analysis",
                 },
                 "messages": {
